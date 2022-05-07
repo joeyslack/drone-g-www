@@ -1,0 +1,116 @@
+.LiveViewcenter{ width: 25vw;
+	height: 30vh;
+	
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+    margin: auto;
+}
+
+
+.LiveViewleftcenter{ 
+
+	height: 20vh;
+    position: absolute;
+	top:35vh;
+	left: 0;
+margin:auto;
+
+}
+
+.LiveViewTopRightSetting{
+
+    width: 15%;
+    height: 37vh;
+    
+	position: absolute;
+	top:80px;
+	
+    right: -12.5%;
+    transition: all 0.5s linear;
+	
+}
+
+#LiveViewarrow{
+
+    transition: all 0.2s linear;
+}
+.LiveViewshadow{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.LiveViewarrowbox1{
+    width:12%;
+    float:left;
+    position:absolute;
+    bottom:0px;
+    display:block;
+    background:white;
+    text-align:center;
+    padding-top:7%;
+    padding-bottom:3%;
+    padding-left:4%;
+    padding-right:4%;
+    margin:0px;
+
+}
+
+.LiveViewlistbox{
+    
+    width:80%;
+    float:right;
+    display:block;
+    height:100%;
+    background-color:white;
+    left:0px;
+}
+
+.LiveViewlistbox1text{
+    text-align: center;
+font-family: SF UI Text Regular;
+font-size:13px;
+color:#8B90A0
+}
+
+
+.LiveViewBottomLeftThumb{
+    width: 321px;
+    min-width: 321px;
+    min-height: 250px;
+    height: 43vh;
+	position: absolute;
+	Bottom:15px;
+    left: -290px;
+    transition: all 0.5s linear;
+}
+
+.LiveViewlistbox1{
+    width:290px;
+    float:left;
+    display:block;
+    height:100%;
+    background-color:white;
+    position:'absolute';
+    left:0px;
+}
+
+.LiveViewarrowbox2{
+    width:15px;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    float:right;
+    background:white;
+    text-align:center;
+    padding-top:4%;
+    padding-bottom:2%;
+    padding-left:1%;
+    padding-right:4%;
+    margin:0px;
+
+}
+
+

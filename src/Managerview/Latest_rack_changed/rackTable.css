@@ -1,0 +1,48 @@
+.rackTablecheckboxStyle
+{
+  cursor:pointer;
+  font-size:12px;
+  font-family:'SF UI Text Regular';
+}
+
+.rackTablebuttonStyle
+{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  padding-top:5px;
+  transition:all 0.2s;
+}
+
+.rackTablebuttonStyle:hover
+{
+  background: rgb(0,0,0,0.08);
+}
+
+.rackTablebutton1Style
+{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  padding-top:7px;
+  transition:all 0.2s;
+  vertical-align: middle;
+  padding-bottom:0px;
+}
+
+.rackTablebutton1Style:hover
+{
+  background: rgb(0,0,0,0.08);
+}
+
+/*--------------------------------------------------owais css end-----------------------------------------------------------------*/
+
+
+  .rackTablePaperRoot {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 3%;
+  }
+
+
+/*--------------------------------------------------owais css end-----------------------------------------------------------------*/

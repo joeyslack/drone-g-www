@@ -1,0 +1,71 @@
+import React, { Component } from 'react';
+import GoogleLogin from 'react-google-login';
+import GoogleImage from './Google.png'
+import { withStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import PostData from './postData';
+import MyContext from '../../../themeContext';
+const styles1 =theme => ({
+    button: { 
+      marginBottom:'0px',
+      marginTop: '10px',
+      minWidth:'150px',
+
+      width:'100%',
+      
+      marginLeft:'auto',
+      marginRight:'auto',}
+    });
+
+class Google extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {  }
+    }
+  
+     responseGoogle = (response) => {
+       
+
+      if(response.error){
+
+     //
+      }
+    else if (  (PostData(response,"null")) && ! (response.error) )
+         {  this.context.updateValue('res',response)
+     
+         this.props.history.push("/Select")
+      }
+ 
+   }
+
+    render() { 
+    
+        const {classes}=this.props;
+        return ( 
+
+            <div>
+           <GoogleLogin
+            onSuccess={this.responseGoogle}
+            onFailure={this.responseGoogle}
+    clientId="716768602586-37q4jfko2gfv9l3rf8poijnllm5sfvpu.apps.googleusercontent.com"
+    render={renderProps => (
+        <Button   onClick={renderProps.onClick} disabled={renderProps.disabled} variant="contained" color="primary" style={{background:'white',color:'#2493F3',paddingLeft:'50px'}} className={classes.button} >
+        <img style={{position:'absolute',left:'20px'}}width="24px" alt="Google" src={GoogleImage}/>Continue with Google
+      </Button>
+    )}
+    buttonText="Login"
+   
+    cookiePolicy={'none'}
+  />
+ 
+ {/* <Button onClick={()=>{app.updateValue('res','aaa')}}>one </Button>
+  <Button onClick={()=>{alert(app.state['res'])}}>two </Button> */}
+                       </div>
+
+
+            
+         );
+    }
+}
+Google.contextType = MyContext;
+export default withStyles(styles1)(Google);

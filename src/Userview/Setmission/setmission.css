@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+.BottomRightMission{
+    
+   
+    min-width: 335px;
+    max-width: 335px;
+    height: 86vh;
+	position: fixed;
+	Top:66px;
+right: -301px;   
+    
+    transition: all 0.5s linear;
+}
+
+
+#arrow1{
+
+    transition: all 0.2s linear;
+}
+
+
+
+.arrowbox3{
+    width:4%;
+    position:absolute;
+    bottom:0px;
+   left:0px;
+    display:block;
+    background:white;
+    text-align:center;
+    padding-top:4%;
+    padding-bottom:2%;
+    padding-left:1%;
+    padding-right:5%;
+    margin:0px;
+
+}
+
+.listbox3{
+    width:90%;
+    float:right;
+  
+    height:100%;
+    background-color:white;
+    left:0px;
+    display: 'block';
+}

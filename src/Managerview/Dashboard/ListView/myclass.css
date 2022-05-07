@@ -1,0 +1,201 @@
+.one{
+    /* width: auto; */
+    
+    display: block;
+    
+    
+    /* height: calc(85vh - 65px); */
+    /* width: ;
+    max-width: auto;
+   
+    max-height: auto; */
+    /* height:calc(70vh - 61px); */
+    
+}
+
+.two{
+    width: auto;
+    height:auto;
+    max-width: 10vh;
+  
+}
+
+.head1{
+    font-family: 'SF UI TEXT Regular';
+    color: #8B90A0;
+}
+
+.right{
+    transform: translate3d(100.1%, 0px, 0px) !important;
+    
+}
+
+/* .ImageModalMainDiv
+{
+    border:0px;
+    background:#E5E5E5;
+    width:calc(100% - 30px); 
+    height:calc(100vh - 50px); 
+    padding:15px;
+} */
+
+.ImageModalMainDiv
+{
+    border:0px;
+    background:#F0F1F3;
+    width:100%;
+    height:calc(100% - 65px);
+    padding:60px;
+    position: absolute;
+    top:65px;
+    left:0;
+}
+
+.image-gallery
+{
+    height: 100%;
+}
+.image-gallery-content{
+    /* height: 100% !important;  */
+}
+
+.image-gallery-slide-wrapper
+{
+    /* height:calc(90% - 30px); */
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+
+    height: calc(100% - 125px);
+    align-items: center; /* For vertical align */
+    display: flex;
+}
+
+.center
+{
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    align-self: center;
+    display: flex;
+}
+
+/* .image-gallery-thumbnails-wrapper
+{
+    height:15%;
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+} */
+
+
+
+
+
+.image-gallery-slides
+{
+    /* width: calc(100%);
+    height:100%; */
+   
+    /* margin-top: 13%; */
+    height: 100% !important;
+    width: 100%;
+}
+
+.image-gallery-image
+{
+   
+    height:100%;
+    width:100%;
+  
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-gallery-slide.center.thumbnail {
+  width: 100%;
+  height: 100%;
+}
+.image-gallery-slide.center.thumbnail .image-gallery-image {
+  display: flex;
+  justify-content: center;
+}
+.image-gallery-slide.center.thumbnail .image-gallery-image>img {
+  height: 200px;
+  width: 200px;
+}
+
+.image-gallery-image>img
+{
+    /* display: block !important;
+    max-width:100% !important;
+    max-height:calc(90vh - 120px)  !important;
+
+    height:auto !important;
+    width: auto !important; */
+    vertical-align: middle;
+}
+
+
+
+/*--------------------------------------------------owais css start-----------------------------------------------------------------*/
+/*--------------------------------------------------owais css start-----------------------------------------------------------------*/
+/* .dashboard-img-modal-main-div{
+    display: block;
+    position: relative;
+    height: calc(100% - 2em);
+    margin-bottom: 2em;
+    width: 100%;
+    overflow: hidden;
+} */
+
+.ImageModalMainDiv-table-div{
+    padding: 2em;
+    float: left;
+    width: auto;
+    height: 100%;
+    /*height: calc(100% - 15px);*/
+    /* height: calc(100vh - 66px); */
+    /*paddingLeft:'10px',float:'left',width:'calc(20% - 10px)',height:'calc(100% - 15px)',background:'white'*/
+}
+
+.ImageModalMainDiv-img-div{
+    float: right;
+    width:calc(100% - 330px) ;
+    /*height:calc(100% - 15px);*/
+    /* height:calc(100vh - 66px); */
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+    display: flex;
+    flex-grow: 1;
+
+    height: 100%;
+    /*float:'right',width:'calc(80% - 10px)',background:'white',height:'calc(100% - 15px)',alignItems:'center',textAlign:'center',alignContent:'center'*/
+}
+
+/* @media (max-width: 800px) {
+    .dashboard-img-modal-main-div{
+        display: flex;
+        height: calc(100% - 20px);
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .ImageModalMainDiv-table-div {
+        padding-left: 10px;
+        height: 160px;
+        margin-top: 5px;
+        width: calc(100% - 10px);
+    }
+
+    .ImageModalMainDiv-img-div {
+        padding-left: 0px;
+        width: 100%;
+        height: calc(100% - 165px);
+    }
+} */
+
+/*--------------------------------------------------owais css start-----------------------------------------------------------------*/

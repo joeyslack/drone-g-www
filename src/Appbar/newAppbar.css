@@ -1,0 +1,38 @@
+#SettingsIconButton:hover{
+
+    background: rgba(0, 0, 0, 0.05);
+
+}
+
+
+#NewAppbarMiniDrawer
+     {
+         display:none;
+         width:0%;
+     }
+
+
+@media only screen and (max-width: 976px) 
+{
+    #NewAppbarMiniDrawer
+    {
+        display:block;
+    }
+}
+
+@media only screen and (max-width: 976px) 
+{
+    #DrawerMenuButton
+    {
+        display:none;
+       
+    }
+}
+
+#DrawerMenuButton
+{
+    margin-left:20px;
+    transition:all 1s ease; 
+    
+}
+

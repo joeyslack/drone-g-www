@@ -1,0 +1,31 @@
+
+#MapViewSmallDiv
+{
+    height: 100%;
+    overflow: auto;
+}
+
+/* #MapViewSmallDiv > div {
+  transition: all 1s ease-in-out;
+} */
+
+
+
+
+
+
+#MapViewPaperText
+{
+    padding-right:20px;
+    color:#8B90A0;
+    font-size:13px ;
+    width:calc(33% - 44px);
+    text-align: left;
+    font-family: 'SF UI Text Regular';
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    display:inline-block;
+
+}
+

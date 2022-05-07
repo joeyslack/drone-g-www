@@ -1,0 +1,29 @@
+
+
+#MapViewDiv
+     {
+         margin-left: 18%;
+         padding: 10px;
+         height:calc(100vh - 64px);
+     }
+
+
+@media only screen and (max-width: 750px) 
+{
+    #MapViewDiv 
+    {
+        margin-left: 0%;
+    }
+}
+
+#MapViewPaper
+{
+    display:inline-block;
+    width:20px;
+    margin-top:5px;
+    height:20px;
+    
+}
+
+
+     

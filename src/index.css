@@ -1,0 +1,54 @@
+html {
+   height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "SF UI Text Regular", "Roboto", -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background: rgb(247, 248, 252);*/
+  min-width: 768px;
+  min-height: 100%;
+  overflow: scroll;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+} */
+
+/* @media only screen and (min-width: 750px) 
+{
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(139, 144, 160, 0.5); 
+    box-shadow: inset 0 0 6px rgba(139, 144, 160, 0.5);
+  }
+  
+  ::-webkit-scrollbar:horizontal{
+    height: 7px;
+  }
+} */
+
+body div ::-webkit-scrollbar {
+  background-color: white;
+  width: 6px;
+}
+body div ::-webkit-scrollbar-thumb {
+  background-color: #BDC5DB;
+  border-radius: 10px;
+}
+body div ::-webkit-scrollbar:horizontal {
+  background-color: white;
+  height: 6px;
+}

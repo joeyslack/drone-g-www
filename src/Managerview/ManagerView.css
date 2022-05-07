@@ -1,0 +1,90 @@
+/* #ManagerViewDiv {
+  width: 100%;
+  position:relative;
+  z-index:99;
+} */
+
+/* 
+@media only screen and (max-width: 750px) 
+{
+    #ManagerViewDiv 
+    {
+        margin-left: 0%;
+    }
+} */
+
+#ManagerViewDiv {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+
+
+#ManagerViewDrawer {
+  display: block;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 976px) {
+  #ManagerViewDrawer {
+    display: none;
+    width: 0%;
+  }
+}
+
+.ManagerViewAppbarNoStalled {
+  width: '100%'
+}
+
+.ManagerViewAppbarStalled {
+  margin-left: 0%;
+  width: 100%;
+}
+
+#ManagerViewAppbar {
+  transition: all 0.2s ease;
+}
+
+
+@media only screen and (max-width: 976px) {
+  #ManagerViewAppbar {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.stalled {
+  margin-left: 0%;
+  width: 100%;
+}
+
+.nostalled {
+  /* margin-left: 18%;
+  width: 82% */
+}
+
+@media only screen and (max-width: 976px) {
+  .nostalled {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.DrawerMenuButtonStalled {
+  display: block;
+  opacity: 1;
+  /* visibility: ; */
+
+
+}
+
+.DrawerMenuButtonNoStalled {
+
+  display: block;
+  opacity: 0;
+  width: 0;
+  visibility: hidden;
+  color: pink;
+
+}

@@ -1,0 +1,36 @@
+.checkboxStyle
+{
+  cursor:pointer;
+  font-size:12px;
+  font-family:'SF UI Text Regular';
+}
+
+.tablebuttonStyle
+{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  padding-top:5px;
+  transition:all 0.2s;
+}
+
+.tablebuttonStyle:hover
+{
+  background: rgb(0,0,0,0.08);
+}
+
+.tablebutton1Style
+{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  padding-top:7px;
+  transition:all 0.2s;
+  vertical-align: middle;
+  padding-bottom:0px;
+}
+
+.tablebutton1Style:hover
+{
+  background: rgb(0,0,0,0.08);
+}

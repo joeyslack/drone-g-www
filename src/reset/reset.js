@@ -1,0 +1,88 @@
+import React, { Component } from 'react';
+import Image from './password.png';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+import PropTypes from 'prop-types'; 
+import SwipeableViews from 'react-swipeable-views';
+import Email from './Email';
+import Sent from './Sent';
+import './reset.css';
+
+
+function TabPanel(props) {
+    const { children, value, index, ...other } = props;
+  
+    return (
+      <Typography
+        component="div"
+        role="tabpanel"
+        hidden={value !== index}
+        id={`simple-tabpanel-${index}`}
+        aria-labelledby={`simple-tab-${index}`}
+        {...other}
+      >
+        <Box p={3}>{children}</Box>
+      </Typography>
+    );
+  }
+  
+  TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.any.isRequired,
+    value: PropTypes.any.isRequired,
+  };
+
+class Reset extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {  value:0,email:null }
+        this.handleNext=this.handleNext.bind(this);
+        this.updateEmail=this.updateEmail.bind(this);
+    }
+    handleNext(){
+        this.setState({value:this.state.value+1})
+           }
+           updateEmail(email){
+            
+            this.setState({email:email})
+               }
+    render() { 
+        return ( <div>
+
+<div style={{textAlign:'center',background:'white',float:'left',margin:'0px',padding:'0px',width:'40%', height:"100vh"}}>
+<img src={Image} alt={"Password reset"} style={{marginTop:'40vh'}}/>
+           </div>
+            
+            
+            
+            <div className="rightdiv">
+               
+                <div style={{height:'85vh'}}className="flex-containercol">
+            <SwipeableViews
+                   axis={'x'}
+                   index={this.state.value}
+                   onChangeIndex={this.handleValue}
+                 >
+           <TabPanel value={this.state.value} index={0}>
+           
+           <Email next={()=>this.handleNext()}  updateEmail={(email)=>this.updateEmail(email)} history={this.props.history}/>
+                
+                 </TabPanel>
+                 <TabPanel value={this.state.value} index={1}>
+                 <Sent  history={this.props.history} email={this.state.email}/>
+                 </TabPanel>
+                
+                 </SwipeableViews>
+           
+           </div>
+           
+           { this.state.value===1? <p style={{paddingTop:'10px',fontSize:'13px',color:'grey',lineHeight:'19px',fontFamily:'SF UI Text'}}>Unsure if that email address was correct? <span onClick={()=>{this.props.history.push('./weCanhelp')}} className="link">We can help</span></p> :null}
+           
+           
+                       </div>
+           
+                       </div>  );
+    }
+}
+ 
+export default Reset;

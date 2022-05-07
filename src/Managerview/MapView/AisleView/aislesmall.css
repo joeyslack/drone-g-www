@@ -1,0 +1,45 @@
+#AisleSmallItemCountDiv
+{
+    border-radius: 50%;
+    width:30px;
+    height:26px;
+    position: absolute;;
+    top:0px;
+    left:0px;
+    background:rgb(139,144,160,0.4);
+    z-index:2;
+    color:white;
+    border: 1px solid white;
+    padding-top:4px; 
+
+}
+
+.BinMainDiv
+{
+    transition: 0.5s ease all;
+}
+
+
+
+.BinMainDiv:hover
+{
+    opacity: 0.5;
+}
+
+.BinMainDivItemCount
+{
+    position:absolute;
+    top: 0px;
+    left:0px;
+    color:white;
+    background:rgba(0,0,0,0.5);
+    padding: 3px 5px 3px;
+}
+.BinMainDivBinCode
+{
+    position:absolute;
+    top: 0px;
+    right:5px;
+    color:white;
+    padding: 2px 0px 0px;
+}

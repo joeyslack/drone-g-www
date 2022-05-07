@@ -1,0 +1,46 @@
+
+/*--------------------------------------------------owais css start-----------------------------------------------------------------*/
+.DrawerListItemText
+{
+    font-family: SF UI Text SemiBold;
+    font-size: 15px;
+    padding:0px ;
+    margin: 0px;
+    margin-left: -30px;
+
+    /*fontSize:'15px',*/
+    /*padding:'0px',*/
+    /*margin:'0px',*/
+    /*marginLeft:'-30px',*/
+
+}
+
+.DrawerButton1
+{
+    margin-top:40px !important;
+}
+
+@media (max-width: 1400px) {
+
+    .DrawerListItemText{
+        font-size: 14px!important;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .DrawerListItemText{
+        font-size: 12px!important;
+    }
+
+
+    #ManagerViewDrawer .MuiSvgIcon-root {
+
+        margin-top: 15px !important;
+        margin-right: -13px;
+        font-size: 18px;
+    }
+}
+
+
+/*--------------------------------------------------owais css end-----------------------------------------------------------------*/

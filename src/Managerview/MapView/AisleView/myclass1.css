@@ -1,0 +1,148 @@
+.ModalHead{
+
+    font-family: 'SF UI TEXT Regular'
+
+}
+
+.one{
+    /* width: auto; */
+    
+    display: block;
+    
+    
+    /* height: calc(85vh - 65px); */
+    /* width: ;
+    max-width: auto;
+   
+    max-height: auto; */
+    /* height:calc(70vh - 61px); */
+    
+}
+
+.two{
+    width: auto;
+    height:auto;
+    max-width: 10vh;
+  
+}
+
+.head1{
+    font-family: 'SF UI TEXT Regular';
+   color: #8B90A0;
+}
+
+.right{
+    transform: translate3d(100.1%, 0px, 0px) !important;
+    
+}
+
+.ImageModalMainDiv1
+{
+    border:0px;
+    background:#F0F1F3;
+    width:calc(100% - 120px);
+    height:calc(100% - 65px);
+    padding:60px;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#BinDetailsImageModalContent
+{
+    width:100%;
+    height:100%;
+    /* border: 'thick solid blue'; */
+}
+
+.ImageModalMainDiv1 .image-gallery
+{
+    height: 100% !important; 
+}
+
+.ImageModalMainDiv1 .image-gallery-content
+{
+    height: 100% !important; 
+}
+
+.ImageModalMainDiv1 .image-gallery-slide-wrapper
+{
+    height:calc(80%);
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    
+}
+
+.ImageModalMainDiv1 .center
+{
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    align-self: center;
+    display: flex;
+}
+
+.ImageModalMainDiv1 .image-gallery-thumbnails-wrapper
+{
+    height:20%;
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+}
+
+
+
+
+
+.ImageModalMainDiv1 .image-gallery-slides
+{
+    /* width: calc(100%);
+    height:100%;  */
+   
+    /* margin-top: 13%; */
+    height:100% !important;
+
+    
+   
+}
+
+.ImageModalMainDiv1 .image-gallery-slide
+{
+    /* width: calc(100%);
+    height:100%;  */
+   
+    /* margin-top: 13%; */
+    height:100% !important;
+
+    
+   
+}
+
+.ImageModalMainDiv1 .image-gallery-image
+{
+   
+    /* height:auto;
+    width:auto; */
+    /* max-height: calc(56vh); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ImageModalMainDiv1 .image-gallery-image>img
+{
+    display: block !important;
+    max-width:100% !important;
+    max-height:calc(100%)  !important;
+
+    height:auto !important;
+    width: auto !important;
+}
+
+

@@ -1,0 +1,52 @@
+/* #LrcDiv
+     {
+         margin-left:18%;
+         width:calc(82% - 20px);
+         padding:10px;
+     } */
+
+     #LrcDiv
+     {  
+        height:calc(100vh - 200px);
+        transition:all 0.2s ease;
+        background:#F7F8FC;
+     }
+
+
+/* @media only screen and (max-width: 976px) 
+{
+    #LrcDiv
+    {
+        margin-left:0%;
+        width:calc(100%);
+    }
+} */
+
+
+#RackTableTopButtonDiv
+{
+    padding-top:5px;
+    display:block;
+    height:30px;
+    width:260px;
+    left:calc(100% - 270px);
+    position:relative;
+    
+}
+
+@media only screen and (max-width: 750px) 
+{
+    #RackTableTopButtonDiv
+    {
+        left:calc(100vw - 280px)
+    }
+}
+
+@media only screen and (max-width: 390px) 
+{
+    #RackTableTopButtonDiv
+    {   left:10px;
+        width:calc(100vw - 10px);
+        
+    }
+}

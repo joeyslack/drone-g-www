@@ -1,0 +1,26 @@
+
+
+    .flex-containercol{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+      }
+      .link{
+          color:#2493F3;
+          cursor:pointer;
+         text-decoration: underline #2493F3 ;
+      }
+      .link:hover {
+
+        color:rgb(45, 71, 94);
+        text-decoration: underline rgb(45, 71, 94); ;
+      }
+
+      .rightdiv{ width:60%;
+        height:100vh;
+        float:left;
+        background:#eeeeee;
+        text-align:center;    
+     
+      }

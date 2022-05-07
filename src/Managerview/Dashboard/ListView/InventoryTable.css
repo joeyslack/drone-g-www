@@ -1,0 +1,131 @@
+#ProductNameDiv{
+padding-bottom:2px;
+}
+
+.ProductTableWrap
+{
+  white-space: nowrap; 
+  width: calc(100% - 32px); 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  display:inline-block;
+  height:100%;
+}
+
+.InventoryTableProductDetailSmallDivText
+{
+  font-size: 14px;
+  color:#8B90A0;
+  font-family: 'SF UI Text Regular';
+  display: block;
+  text-align: left;
+  overflow: hidden;
+
+  
+}
+
+.InventoryTableProductDetailSmallDivText1
+{
+  font-size: 14px;
+  color:#232735;
+  font-family: 'SF UI Text Regular';
+  width:100%;
+  display: block;
+  white-space: nowrap; 
+  text-align: left;
+  /* background: black; */
+  overflow: hidden;
+  text-overflow: ellipsis; 
+
+}
+
+.checkboxStyle
+{
+  cursor:pointer;
+  font-size:12px;
+  font-family:'SF UI Text Regular';
+}
+
+.tablebuttonStyle
+{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  padding-top:5px;
+  transition:all 1s;
+}
+
+/* #ProductImage
+{
+  width:auto;
+  max-width:calc(100% - 12px);
+  max-height:calc(50vh - 248px);
+} */
+/*--------------------------------------------------owais css start-----------------------------------------------------------------*/
+/* 
+@media (max-width: 414px) {
+  #ProductImage {
+    width: auto;
+    max-width: calc(100% - 12px);
+    max-height: calc(50vh - 226px) !important;
+  }
+}
+
+
+@media (max-width: 375px) {
+  #ProductImage {
+    width: auto;
+    max-width: calc(100% - 12px);
+    max-height: calc(50vh - 223px) !important;
+  }
+} */
+/*--------------------------------------------------owais css end-----------------------------------------------------------------*/
+
+
+/* @media only screen and (max-height: 568px) 
+{
+    #ProductImage
+    {
+      max-height:calc(252px - 237px);
+    }
+} */
+
+
+
+
+
+.InventoryTablePopButtons
+{
+  transition:all 1s;
+  font-size:11px;
+  font-family:'SF UI TEXT Regular';
+  height:30px;
+  padding-top:0px;
+  text-transform:none;
+  vertical-align:top;
+  border-radius:0px;
+  margin-right:0px;
+  border-color:#EBF4FD;
+  background: rgba(216, 218, 226, 0.575)
+}
+
+#InventoryTablePhotosSectExpButton
+{
+    z-index: 1;
+}
+
+#InventoryTablePhotosSectImage
+{
+    position: absolute;
+    top:0px;
+    z-index: 0;
+    /* transition: 0.5s ease-in all; */
+}
+
+
+
+#InventoryTablePhotosSectExpButton:hover + #InventoryTablePhotosSectImage
+{
+    opacity: 0.5;
+}
+

@@ -1,0 +1,355 @@
+
+
+
+
+/* #ListViewDiv
+     {
+        transition: all 0.2s ease ;
+     }
+
+
+@media only screen and (max-width: 976px) 
+{
+    #ListViewDiv 
+    {
+        margin-left: 0%;
+        width:100%;
+    }
+} */
+
+#ListViewDiv
+{
+  transition: all 0.2s ease;
+}
+
+
+/* 
+#ListViewRackDiv
+{
+    transition: all 0.5s ease;
+}
+
+#ListViewMapDiv
+{
+    transition: all 0.5s ease;
+} */
+
+
+/* #ListViewRackDiv
+{
+  transition: width 0.3s ease;
+} */
+
+/* 
+#ListViewMapDiv
+{
+    transition: width 0.3s ease-out;
+} */
+
+
+#ListViewTopButtonDiv
+{
+    padding-top:5px;
+    display:block;
+    /* height:30px;*/
+    width:260px; 
+    /* left:calc(100% - 270px); */
+    position:relative;
+    margin: 0px;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 800px) 
+{
+    #ListViewTopButtonDiv
+    {
+        position: absolute;
+        top:calc(50vh - 38px);
+        left:calc(96% - 250px)
+    
+    }
+}
+
+@media only screen and (max-width: 490px) 
+{
+    #ListViewTopButtonDiv
+    {
+        left:10px;
+        width:calc(96%);
+    }
+}
+
+/* @media only screen and (max-width: 390px) 
+{
+    #ListViewTopButtonDiv
+    {   left:10px;
+        width:calc(100vw - 10px);
+        
+    }
+} */
+
+#ListViewMetricDiv{
+ 
+    
+    margin-left:10px;
+    position:relative;
+    margin-top:10px;
+    min-height:265px;
+    height:calc(50vh - 49px);
+    float:left;
+    min-width:270px;
+    width:30%;
+    max-width:96%;
+    padding-bottom:0px;
+    /* display:inline-block; */
+    display: block;
+}
+
+
+@media only screen and (max-width: 500px) 
+{
+    #ListViewMetricDiv
+    {
+        min-width:calc(100% - 20px);
+    }
+}
+
+
+@media only screen and (min-width: 500px) 
+{
+    #ListViewMetricDiv
+    {
+        min-width:480px;
+        width:calc(100% - 10px);
+        max-width:480px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 800px) 
+{
+    #ListViewMetricDiv
+    {   
+        min-width:270px;
+        width:calc(35% - 10px);
+        margin-top:0px;
+        
+        /* total margin 30px left 10px */
+    }
+}
+
+/* @media only screen and (min-width: 1068px) 
+{
+    #ListViewMetricDiv
+    {
+        margin-top: 0px
+    }
+} */
+
+
+@media only screen and (min-width: 1200px) 
+{
+    #ListViewMetricDiv 
+    {   min-width: 270px;
+        width:calc(35% - 10px);
+        max-width: 350px;
+    }
+}
+
+
+
+
+
+
+/* 
+#ListViewLrcDiv
+{
+
+  margin-left:10px;
+  margin-top:10px;
+  position:relative;
+  min-height:265px;
+  height:calc(50vh - 54px);
+  float:left;
+  min-width:500px;
+  width:70%;
+  max-width:96%;
+  padding-top:0px;
+  padding-bottom:0px;
+  display:inline-block;
+}
+
+
+@media only screen and (max-width: 500px) 
+{
+    #ListViewLrcDiv
+    {
+        min-width:96%;
+    }
+}
+
+@media only screen and (max-width: 490px) 
+{
+    #ListViewLrcDiv
+    {
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 500px) 
+{
+    #ListViewLrcDiv
+    {
+       
+        min-width:96%;
+        margin-top:10px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 800px) 
+{
+    #ListViewLrcDiv
+    {
+        min-width:500px;
+        width:calc(65% - 20px);
+        margin-top: 0px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) 
+{
+    #ListViewLrcDiv 
+    {   min-width: 500px;
+        
+        width:calc(100% - 380px);
+    }
+} */
+
+/* @media only screen and (min-width: 1068px) 
+{
+    #ListViewLrcDiv
+    {
+        margin-top: 0px
+    }
+} */
+
+
+
+
+
+#ListViewLrcDiv
+{
+
+  /* margin:10px; */
+  position:relative;
+  min-height:265px;
+  /* height:calc(50vh - 54px); */
+  min-width:500px;
+  padding-top:0px;
+  padding-bottom:0px;
+  display:block;
+}
+
+
+#ListViewInventoryDiv
+{
+    /* margin:0px; */
+    /* margin-left:10px;
+    margin-bottom:0px; */
+    /* float:left; */
+    padding-bottom:0px;
+    display: 'block';
+    /* height:calc(50vh - 55px); */
+    min-height:280px;
+    /* margin-top:10px; */
+    /* min-width:calc(100% - 20px); */
+    /* width:calc(100% - 20px); */
+}
+
+/* @media only screen and (max-width: 500px) 
+{
+    #ListViewInventoryDiv
+    {
+        min-width:calc(100% - 20px);
+        width:calc(100% - 20px);
+    }
+}
+
+@media only screen and (min-width: 500px) 
+{
+    #ListViewInventoryDiv
+    {
+        min-width:96%;
+    }
+} */
+
+.im-text1{
+    padding:0px;
+    margin:0px;
+    font-size:18px;
+    color:rgb(0,0,0);
+    font-family:'SF UI TEXT Bold';
+}
+
+.im-text2{
+    padding:0px;
+    padding-bottom:2vh;
+    margin:0px;
+    font-size:13px;
+    color:#2493F3;
+    font-family:'SF UI TEXT Regular';
+    text-decoration-line:underline;
+}
+
+/* #myTable::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+} */
+
+/* .Pop1{
+    color:#192A3E;
+    font-size:13px;
+    padding:5px;
+    min-width: 100px;
+    cursor: pointer;
+    background: white;
+}  */
+.Pop1{
+    color:#8B90A0;
+    font-size:13px;
+    padding: 1em 1em 1em 1em;
+    min-width: 200px;
+    cursor: pointer;
+    background: white;
+}
+
+.Pop1:hover,
+.Pop1.selected {
+  /* background: rgb(171, 179, 187); */
+  color:  #232735;
+}
+
+/*--------------------------------------------------owais css start-----------------------------------------------------------------*/
+
+
+/* @media (max-width: 800px) {
+    #ListViewInventoryDiv {
+        margin-top: 10px;
+    }
+}
+@media  (max-width: 800px) and (min-width: 500px){
+    #ListViewMetricDiv {
+        min-width: 480px;
+        width: calc(100% - 10px);
+        max-width: 96%;
+    }
+} */
+/*--------------------------------------------------owais css end-----------------------------------------------------------------*/
+
